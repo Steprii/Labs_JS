@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+    }
+
+    .navigation a {
+      color: #fff;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .navigation a:hover {
+      color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .info-box {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .info-box p {
+      margin: 0;
+    }
+
+    .text-primary {
+      color: #333;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .text-secondary {
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="logo">Мій сайт</div>
+      <nav class="navigation">
+        <a href="#">Головна</a>
+        <a href="#">Про нас</a>
+        <a href="#">Контакти</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="info-box">
+        <p class="text-primary">Адреса:</p>
+        <p class="text-secondary">м. Київ, вул. Хрещатик, 1</p>
+      </div>
+      <div class="info-box">
+        <p class="text-primary">Телефон:</p>
+        <p class="text-secondary">(044) 123-45-67</p>
+      </div>
+      <div class="info-box">
+        <p class="text-primary">Email:</p>
+        <p class="text-secondary">info@mysite.com</p>
+      </div>
+      <p class="text-muted">&copy; 2023 Ігапеткої А.В. | Всі права захищені</p>
+    </div>
+    
+  </body>
+</html>
